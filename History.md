@@ -1,5 +1,9 @@
 ## History
 
+- v2.1.2 November 17, 2012
+	- Updated stylus from 0.28 to 0.30
+	- Updated nib from 0.5 to 0.8
+
 - v2.1.1 August 10, 2012
 	- Re-added markdown files to npm distribution as they are required for the npm website
 	- Updated stylus from 0.27 to 0.28
