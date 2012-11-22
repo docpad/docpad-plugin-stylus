@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-stylus",
-	"version": "2.1.2",
+	"version": "2.2.0",
 	"description": "Adds support for the Stylus CSS pre-processor to DocPad",
 	"homepage": "http://docpad.org/plugin/stylus",
 	"keywords": [
