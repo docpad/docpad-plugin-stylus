@@ -32,6 +32,7 @@ module.exports = (BasePlugin) ->
 				if @config.useNib
 					nib = require('nib')
 					style.use nib()
+					style.import('nib')
 
 				# Render our style
 				style.render (err,output) ->
