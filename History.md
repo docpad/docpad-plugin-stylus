@@ -1,5 +1,11 @@
 ## History
 
+- v2.3.0 March 7, 2013
+	- Repackaged
+	- Dependency upgrades
+		-  `stylus` 0.30.x to ~0.32.0
+		-  `nib` 0.8.x to ~0.9.0
+
 - v2.2.0 November 23, 2012
 	- Updated stylus from 0.28 to 0.30
 	- Updated nib from 0.5 to 0.8

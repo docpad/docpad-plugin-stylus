@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-stylus",
-	"version": "2.2.0",
+	"version": "2.3.0",
 	"description": "Adds support for the Stylus CSS pre-processor to DocPad",
 	"homepage": "http://docpad.org/plugin/stylus",
 	"keywords": [
@@ -13,10 +13,10 @@
 	],
 	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
 	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
 	],
 	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
 	],
 	"bugs": {
 		"url": "https://github.com/bevry/docpad-extras/issues"
@@ -26,18 +26,18 @@
 		"url": "http://github.com/bevry/docpad-extras.git"
 	},
 	"engines" : {
-		"node": ">=0.4.0",
-		"docpad": ">=6.3.x <7.0.0"
+		"node": ">=0.4",
+		"docpad": ">=6.3 <7"
 	},
 	"dependencies": {
-		"stylus": "0.30.x",
-		"nib": "0.8.x"
+		"stylus": "~0.32.0",
+		"nib": "~0.9.0"
 	},
 	"devDependencies": {
 		"coffee-script": "1.4.x"
 	},
 	"main": "./out/stylus.plugin.js",
 	"scripts": {
-		"test": "node ./test/stylus.test.js"
+		"test": "node ./out/stylus.test.js"
 	}
 }
