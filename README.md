@@ -6,7 +6,7 @@
 [![Flattr donate button](https://raw.github.com/balupton/flattr-buttons/master/badge-89x18.gif)](http://flattr.com/thing/344188/balupton-on-Flattr "Donate monthly to this project using Flattr")
 [![PayPayl donate button](https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif)](https://www.paypal.com/au/cgi-bin/webscr?cmd=_flow&SESSION=IHj3DG3oy_N9A9ZDIUnPksOi59v0i-EWDTunfmDrmU38Tuohg_xQTx0xcjq&dispatch=5885d80a13c0db1f8e263663d3faee8d14f86393d55a810282b64afed84968ec "Donate once-off to this project using Paypal")
 
-Adds support for the [Stylus](http://learnboost.github.com/stylus/) CSS pre-processor to [DocPad](https://docpad.org)
+Adds support for the [Stylus](http://learnboost.github.com/stylus/) CSS pre-processor to [DocPad](http://docpad.org)
 
 Convention:  `.css.styl|stylus`
 
