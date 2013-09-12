@@ -9,6 +9,7 @@ module.exports = (BasePlugin) ->
 		config:
 			useNib: true
 			compress: true
+			includeCss: true
 			environments:
 				development:
 					compress: false
@@ -27,6 +28,7 @@ module.exports = (BasePlugin) ->
 				style = stylus(opts.content)
 					.set('filename', file.get('fullPath'))
 					.set('compress', @config.compress)
+					.set('include css', @config.includeCss)
 
 				# Use nib if we want to
 				if @config.useNib
