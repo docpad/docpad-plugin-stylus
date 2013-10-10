@@ -7,17 +7,21 @@ module.exports = (BasePlugin) ->
 
 		# Plugin config
 		config:
-			useNib: true
-			compress: true
-			includeCss: true
+			stylusLibraries:
+				nib: true
+			stylusOptions:
+				compress: true
+				'include css': true
 			environments:
 				development:
-					compress: false
+					stylusOptions:
+						compress: false
 
 		# Render some content
 		render: (opts,next) ->
 			# Prepare
 			{inExtension,outExtension,content,file} = opts
+			config = @getConfig()
 
 			# Check extensions
 			if inExtension in ['styl','stylus'] and outExtension in ['css',null]
@@ -25,22 +29,26 @@ module.exports = (BasePlugin) ->
 				stylus = require('stylus')
 
 				# Create our style
-				style = stylus(opts.content)
-					.set('filename', file.get('fullPath'))
-					.set('compress', @config.compress)
-					.set('include css', @config.includeCss)
+				style = stylus(opts.content).set('filename', file.get('fullPath'))
 
-				# Use nib if we want to
-				if @config.useNib
-					nib = require('nib')
-					style.use nib()
+				# Apply our options
+				for own option,value of config.stylusOptions
+					style.set(option, value)
+
+				# Apply our libraries
+				for own library,value of config.stylusLibraries
+					continue  if !value
+					value = undefined  if value is true
+					style.use(require(library)(value))
 
 				# Render our style
 				style.render (err,output) ->
 					# Check for errors, and return to docpad if so
 					return next(err)  if err
+
 					# Apply result
 					opts.content = output
+
 					# Done, return to docpad
 					return next()
 
