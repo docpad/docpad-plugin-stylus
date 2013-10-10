@@ -47,7 +47,7 @@ You can customise the options sent to stylus using the `stylusOptions` object. [
 ### Stylus Libraries
 By default we include the  [Nib Stylus Library](http://visionmedia.github.io/nib/).
 
-### Using Nib
+#### Using Nib
 
 Nib is a small and powerful library for the Stylus CSS language, providing robust cross-browser CSS3 mixins to make your life as a designer easier. By default nib support is enabled, but it can be disabled by setting the `useNib` option to `false`.
 
