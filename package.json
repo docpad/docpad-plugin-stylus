@@ -1,46 +1,45 @@
 {
-	"name": "docpad-plugin-stylus",
-	"version": "2.5.0",
-	"description": "Adds support for the Stylus CSS pre-processor to DocPad",
-	"homepage": "http://docpad.org/plugin/stylus",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"stylus",
-		"css",
-		"styles",
-		"styling"
-	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
-	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"bugs": {
-		"url": "https://github.com/bevry/docpad-extras/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "http://github.com/bevry/docpad-extras.git"
-	},
-	"engines" : {
-		"node": ">=0.4"
-	},
-	"peerDependencies": {
-		"docpad": ">=6.37 <7"
-	},
-	"dependencies": {
-		"stylus": "~0.38.0",
-		"nib": "~1.0.1"
-	},
-	"devDependencies": {
-		"coffee-script": "~1.6.2",
-		"docpad": ">=6.37 <7"
-	},
-	"main": "./out/stylus.plugin.js",
-	"scripts": {
-		"test": "node ./out/stylus.test.js"
-	}
+  "name": "docpad-plugin-stylus",
+  "version": "2.5.0",
+  "description": "Adds support for the Stylus CSS pre-processor to DocPad",
+  "homepage": "http://docpad.org/plugin/stylus",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "stylus",
+    "css",
+    "styles",
+    "styling"
+  ],
+  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "bugs": {
+    "url": "https://github.com/bevry/docpad-extras/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bevry/docpad-extras.git"
+  },
+  "engines": {
+    "node": ">=0.4"
+  },
+  "peerDependencies": {
+    "docpad": ">=6.37 <7"
+  },
+  "dependencies": {
+    "stylus": "~0.38.0",
+    "nib": "~1.0.1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2"
+  },
+  "main": "./out/stylus.plugin.js",
+  "scripts": {
+    "test": "node ./out/stylus.test.js"
+  }
 }
