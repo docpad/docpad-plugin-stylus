@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-stylus",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "Adds support for the Stylus CSS pre-processor to DocPad",
   "homepage": "http://docpad.org/plugin/stylus",
   "keywords": [
@@ -32,11 +32,11 @@
     "docpad": ">=6.37 <7"
   },
   "dependencies": {
-    "stylus": "~0.38.0",
-    "nib": "~1.0.1"
+    "stylus": ">=0.38 <1.x",
+    "nib": ">=1.x <2.x"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.2"
+    "coffee-script": ">=1.6.x <2.x"
   },
   "main": "./out/stylus.plugin.js",
   "scripts": {
