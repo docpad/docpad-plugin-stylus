@@ -32,11 +32,11 @@
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "bugs": {
-    "url": "https://github.com/bevry/docpad-extras/issues"
+    "url": "https://github.com/docpad/docpad-plugin-stylus"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/bevry/docpad-extras.git"
+    "url": "http://github.com/docpad/docpad-plugin-stylus.git"
   },
   "engines": {
     "node": ">=0.4"
@@ -45,7 +45,7 @@
     "docpad": ">=6.37 <7"
   },
   "dependencies": {
-    "stylus": "~0.41.3",
+    "stylus": "~0.42.2",
     "nib": "~1.0.1",
     "autoprefixer-stylus": "0.0.3"
   },
