@@ -4,12 +4,13 @@
 
 [![Build Status](http://img.shields.io/travis-ci/docpad/docpad-plugin-stylus.png?branch=master)](http://travis-ci.org/docpad/docpad-plugin-stylus "Check this project's build status on TravisCI")
 [![NPM version](http://badge.fury.io/js/docpad-plugin-stylus.png)](https://npmjs.org/package/docpad-plugin-stylus "View this project on NPM")
-[![Dependency Status](https://david-dm.org/docpad/docpad-plugin-stylus.png?theme=shields.io)](https://david-dm.org/bevry/docpad-extras)
-[![Development Dependency Status](https://david-dm.org/docpad/docpad-plugin-stylus/dev-status.png?theme=shields.io)](https://david-dm.org/bevry/docpad-extras#info=devDependencies)<br/>
+[![Dependency Status](https://david-dm.org/docpad/docpad-plugin-stylus.png?theme=shields.io)](https://david-dm.org/docpad/docpad-plugin-stylus)
+[![Development Dependency Status](https://david-dm.org/docpad/docpad-plugin-stylus/dev-status.png?theme=shields.io)](https://david-dm.org/docpad/docpad-plugin-stylus#info=devDependencies)<br/>
 [![Gittip donate button](http://img.shields.io/gittip/docpad.png)](https://www.gittip.com/docpad/ "Donate weekly to this project using Gittip")
 [![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/344188/balupton-on-Flattr "Donate monthly to this project using Flattr")
 [![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=yellow)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QB8GQPZAH84N6 "Donate once-off to this project using Paypal")
 [![BitCoin donate button](http://img.shields.io/bitcoin/donate.png?color=yellow)](https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a "Donate once-off to this project using BitCoin")
+[![Wishlist browse button](http://img.shields.io/wishlist/browse.png?color=yellow)](http://amzn.com/w/2F8TXKSNAFG4V "Buy an item on our wishlist for us")
 
 <!-- /BADGES -->
 
@@ -116,7 +117,7 @@ plugins:
 <!-- HISTORY/ -->
 
 ## History
-[Discover the change history by heading on over to the `HISTORY.md` file.](https://github.com/docpad/docpad-plugin-stylus/blob/master/History.md#files)
+[Discover the change history by heading on over to the `HISTORY.md` file.](https://github.com/docpad/docpad-plugin-stylus/blob/master/HISTORY.md#files)
 
 <!-- /HISTORY -->
 
@@ -125,7 +126,7 @@ plugins:
 
 ## Contribute
 
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/docpad/docpad-plugin-stylus/blob/master/Contributing.md#files)
+[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/docpad/docpad-plugin-stylus/blob/master/CONTRIBUTING.md#files)
 
 <!-- /CONTRIBUTE -->
 
@@ -139,6 +140,8 @@ plugins:
 These amazing people are maintaining this project:
 
 - Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)
+- Rob Loach <robloach@gmail.com> (https://github.com/RobLoach)
+- Anton Wilhelm <timaschew@gmail.com> (https://github.com/timaschew)
 
 ### Sponsors
 
@@ -148,14 +151,20 @@ No sponsors yet! Will you be the first?
 [![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/344188/balupton-on-Flattr "Donate monthly to this project using Flattr")
 [![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=yellow)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QB8GQPZAH84N6 "Donate once-off to this project using Paypal")
 [![BitCoin donate button](http://img.shields.io/bitcoin/donate.png?color=yellow)](https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a "Donate once-off to this project using BitCoin")
+[![Wishlist browse button](http://img.shields.io/wishlist/browse.png?color=yellow)](http://amzn.com/w/2F8TXKSNAFG4V "Buy an item on our wishlist for us")
 
 ### Contributors
 
 These amazing people have contributed code to this project:
 
+- [Anton Wilhelm](https://github.com/timaschew) <timaschew@gmail.com> — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=timaschew)
 - [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=balupton)
+- [chase](https://github.com/chase) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=chase)
+- [intval](https://github.com/intval) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=intval)
+- [RobLoach](https://github.com/RobLoach) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=RobLoach)
+- [shinnn](https://github.com/shinnn) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=shinnn)
 
-[Become a contributor!](https://github.com/docpad/docpad-plugin-stylus/blob/master/Contributing.md#files)
+[Become a contributor!](https://github.com/docpad/docpad-plugin-stylus/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 

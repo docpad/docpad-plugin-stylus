@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-stylus",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "Adds support for the Stylus CSS pre-processor to DocPad",
   "homepage": "http://docpad.org/plugin/stylus",
   "license": {
@@ -14,7 +14,8 @@
     "gittip": "docpad",
     "flattr": "344188/balupton-on-Flattr",
     "paypal": "QB8GQPZAH84N6",
-    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a"
+    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a",
+    "wishlist": "http://amzn.com/w/2F8TXKSNAFG4V"
   },
   "keywords": [
     "docpad",
@@ -27,10 +28,16 @@
   "author": "2012+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "Rob Loach <robloach@gmail.com> (https://github.com/RobLoach)",
     "Anton Wilhelm <timaschew@gmail.com> (https://github.com/timaschew)"
   ],
   "contributors": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+    "Anton Wilhelm <timaschew@gmail.com> (https://github.com/timaschew)",
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "chase (https://github.com/chase)",
+    "intval (https://github.com/intval)",
+    "RobLoach (https://github.com/RobLoach)",
+    "shinnn (https://github.com/shinnn)"
   ],
   "bugs": {
     "url": "https://github.com/docpad/docpad-plugin-stylus"

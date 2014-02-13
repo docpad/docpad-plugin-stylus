@@ -1,8 +1,7 @@
-## History
+# History
 
-- v2.6.x
+- v2.6.0 February 13, 2013
 	- Updated dependencies
-		- Thanks to [Rob Loach](https://github.com/robloach) for [pull request #5](https://github.com/docpad/docpad-plugin-stylus/pull/5)
 
 - v2.5.0 October 10, 2013
 	- Options have changed (b/c break)
