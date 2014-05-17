@@ -36,15 +36,15 @@
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
     "chase (https://github.com/chase)",
     "intval (https://github.com/intval)",
-    "RobLoach (https://github.com/RobLoach)",
+    "Rob Loach <robloach@gmail.com> (https://github.com/RobLoach)",
     "shinnn (https://github.com/shinnn)"
   ],
   "bugs": {
-    "url": "https://github.com/docpad/docpad-plugin-stylus"
+    "url": "https://github.com/docpad/docpad-plugin-stylus/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/docpad/docpad-plugin-stylus.git"
+    "url": "https://github.com/docpad/docpad-plugin-stylus.git"
   },
   "engines": {
     "node": ">=0.4"
@@ -60,10 +60,13 @@
   "devDependencies": {
     "coffee-script": "~1.7.1",
     "docpad": ">=6.37 <7",
-    "projectz": "~0.3.10"
+    "projectz": "~0.3.13"
   },
   "main": "./out/stylus.plugin.js",
   "scripts": {
     "test": "node ./out/stylus.test.js"
+  },
+  "cakeConfiguration": {
+    "COFFEE_SRC_PATH": "src"
   }
 }
