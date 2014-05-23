@@ -53,9 +53,9 @@
     "docpad": ">=6.37 <7"
   },
   "dependencies": {
-    "stylus": "~0.42.2",
-    "nib": "~1.0.1",
-    "autoprefixer-stylus": "0.0.3"
+    "stylus": "~0.45.1",
+    "nib": "~1.0.2",
+    "autoprefixer-stylus": "0.1.0"
   },
   "devDependencies": {
     "coffee-script": "~1.7.1",
