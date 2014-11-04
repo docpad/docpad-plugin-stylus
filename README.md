@@ -89,7 +89,7 @@ You can include your own custom libraries, providing you npm install them yourse
 To use the [Axis Stylus Library](http://roots.cx/axis/) instead of Nib, you first first install axis by doing:
 
 ``` bash
-npm install --save axis-css
+npm install --save axis
 ```
 
 Then update our DocPad configuration file with:
@@ -99,7 +99,7 @@ plugins:
 	stylus:
 		stylusLibraries:
 			nib: false
-			'axis-css': true
+			'axis': true
 ```
 
 You can also customise the configuration sent to the library by doing the following, in this case, we set the [axis `implicit` property to `false`](https://github.com/jenius/axis#usage):
@@ -109,7 +109,7 @@ plugins:
 	stylus:
 		stylusLibraries:
 			nib: false
-			'axis-css':
+			'axis':
 				implicit: false
 ```
 
