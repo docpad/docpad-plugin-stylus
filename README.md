@@ -161,6 +161,9 @@ These amazing people have contributed code to this project:
 - [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=balupton)
 - [chase](https://github.com/chase) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=chase)
 - [intval](https://github.com/intval) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=intval)
+- [kizu](https://github.com/kizu) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=kizu)
+- [lbilharz](https://github.com/lbilharz) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=lbilharz)
+- [mjrev](https://github.com/mjrev) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=mjrev)
 - [Rob Loach](https://github.com/RobLoach) <robloach@gmail.com> — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=RobLoach)
 - [shinnn](https://github.com/shinnn) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=shinnn)
 
