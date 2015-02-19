@@ -64,7 +64,7 @@
   "devDependencies": {
     "coffee-script": "^1.9.0",
     "docpad": ">=6.37 <7",
-    "projectz": "^0.4.2"
+    "projectz": "^0.4.3"
   },
   "main": "./out/stylus.plugin.js",
   "scripts": {
