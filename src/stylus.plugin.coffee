@@ -57,3 +57,18 @@ module.exports = (BasePlugin) ->
 				# Nothing to do, return back to DocPad
 				return next()
 
+		# Avoid writing unnecessary needed files
+		writeBefore: (opts,next) ->
+			# Prepare
+			{collection,templateData} = opts
+
+			# Loop through all files @todo: filter only files to write?
+			collection.forEach (file) =>
+				# Get the out extension of the file
+				outExtension = file.get('outExtension')
+
+				# Check if it is one of ours
+				if outExtension in ['styl', 'stylus']
+					# Do not write it!
+					file.set 'write', false
+			next()
