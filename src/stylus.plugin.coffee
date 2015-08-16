@@ -33,7 +33,10 @@ module.exports = (BasePlugin) ->
 
 				# Apply our options
 				for own option,value of config.stylusOptions
-					style.set(option, value)
+					if option == 'resolve url'
+						style.define('url', stylus.resolver(value))
+					else
+						style.set(option, value)
 
 				# Apply our libraries
 				for own library,value of config.stylusLibraries
