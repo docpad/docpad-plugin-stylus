@@ -1,5 +1,9 @@
 # History
 
+- v2.10.0 September 5, 2015
+	- Added `resolve url` option
+	- Updated dependencies
+
 - v2.9.0 February 8, 2015
 	- Updated dependencies
 

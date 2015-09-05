@@ -158,6 +158,7 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
+- [ainop](https://github.com/ainop) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=ainop)
 - [Anton Wilhelm](https://github.com/timaschew) <timaschew@gmail.com> — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=timaschew)
 - [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=balupton)
 - [chase](https://github.com/chase) — [view contributions](https://github.com/docpad/docpad-plugin-stylus/commits?author=chase)

@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-stylus",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "description": "Adds support for the Stylus CSS pre-processor to DocPad",
   "homepage": "http://docpad.org/plugin/stylus",
   "license": {
@@ -33,6 +33,7 @@
     "Anton Wilhelm <timaschew@gmail.com> (https://github.com/timaschew)"
   ],
   "contributors": [
+    "ainop (https://github.com/ainop)",
     "Anton Wilhelm <timaschew@gmail.com> (https://github.com/timaschew)",
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
     "chase (https://github.com/chase)",
@@ -57,7 +58,7 @@
     "docpad": ">=6.37 <7"
   },
   "dependencies": {
-    "stylus": "~0.50.0",
+    "stylus": "~0.52.4",
     "nib": "~1.1.0",
     "autoprefixer-stylus": "0.5.0"
   },
