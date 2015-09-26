@@ -37,6 +37,7 @@ The default configuration for this plugin is the equivalant of adding the follow
 ``` coffee
 plugins:
 	stylus:
+		stylusRequire: null
 		stylusLibraries:
 			nib: true
 		stylusOptions:
@@ -48,6 +49,15 @@ environments:
 	development:
 		stylusOptions:
 			compress: false
+```
+
+### Using external Stylus
+If you'd like to use not the Stylus version that goes with the plugin, but your custom one (patched or of a previous version), you could use the `stylusRequire` setting by passing your version to it:
+
+``` coffee
+plugins:
+	stylus:
+		stylusRequire: require('stylus')
 ```
 
 ### Stylus Options

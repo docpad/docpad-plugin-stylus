@@ -1,5 +1,8 @@
 # History
 
+- v2.11.0 September 27, 2015
+	- Added `stylusRequire` option
+
 - v2.10.0 September 5, 2015
 	- Added `resolve url` option
 	- Updated dependencies

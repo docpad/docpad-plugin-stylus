@@ -7,6 +7,7 @@ module.exports = (BasePlugin) ->
 
 		# Plugin config
 		config:
+			stylusRequire: null
 			stylusLibraries:
 				nib: true
 			stylusOptions:
@@ -26,7 +27,7 @@ module.exports = (BasePlugin) ->
 			# Check extensions
 			if inExtension in ['styl','stylus'] and outExtension in ['css',null]
 				# Load stylus
-				stylus = require('stylus')
+				stylus = config.stylusRequire || require('stylus')
 
 				# Create our style
 				style = stylus(opts.content).set('filename', file.get('fullPath'))
