@@ -2,6 +2,7 @@
 
 - v2.11.0 September 27, 2015
 	- Added `stylusRequire` option
+	- Require Stylus only once
 
 - v2.10.0 September 5, 2015
 	- Added `resolve url` option

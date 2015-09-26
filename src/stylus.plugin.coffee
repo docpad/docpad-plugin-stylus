@@ -18,6 +18,17 @@ module.exports = (BasePlugin) ->
 					stylusOptions:
 						compress: false
 
+		# Constructor
+		constructor: ->
+			# Prepare
+			super
+
+			# Require Stylus
+			@stylus = @getConfig().stylusRequire || require('stylus')
+
+			# Chain
+			@
+
 		# Render some content
 		render: (opts,next) ->
 			# Prepare
@@ -26,16 +37,13 @@ module.exports = (BasePlugin) ->
 
 			# Check extensions
 			if inExtension in ['styl','stylus'] and outExtension in ['css',null]
-				# Load stylus
-				stylus = config.stylusRequire || require('stylus')
-
 				# Create our style
-				style = stylus(opts.content).set('filename', file.get('fullPath'))
+				style = @stylus(opts.content).set('filename', file.get('fullPath'))
 
 				# Apply our options
 				for own option,value of config.stylusOptions
 					if option == 'resolve url'
-						style.define('url', stylus.resolver(value))
+						style.define('url', @stylus.resolver(value))
 					else
 						style.set(option, value)
 
