@@ -1,5 +1,8 @@
 # History
 
+## v2.12.0 2017 April 2
+- Updated base files
+
 ## v2.11.0 2015 September 27
 - Added `stylusRequire` option
 - Require Stylus only once
