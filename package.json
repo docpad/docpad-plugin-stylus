@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-stylus",
-  "version": "2.16.0",
+  "version": "2.17.0",
   "description": "Adds support for the Stylus CSS pre-processor to DocPad",
   "homepage": "https://github.com/docpad/docpad-plugin-stylus",
   "license": "MIT",
