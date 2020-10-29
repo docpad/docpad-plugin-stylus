@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-stylus",
-  "version": "2.17.0",
+  "version": "2.18.0",
   "description": "Adds support for the Stylus CSS pre-processor to DocPad",
   "homepage": "https://github.com/docpad/docpad-plugin-stylus",
   "license": "MIT",
@@ -63,7 +63,7 @@
     "Chase Colman <chase@colman.io> (https://github.com/chase)",
     "Lars Bilharz <info@lars-bilharz.de> (https://github.com/lbilharz)",
     "Lars Bilharz <lars.bilharz@actano.de> (http://rplan.com)",
-    "Mikhail Menshikov (https://github.com/ixth)",
+    "Mikhail Menshikov <ainop@ya.ru> (https://github.com/ixth)",
     "Rob Loach <robloach@gmail.com> (https://github.com/RobLoach)",
     "Roman Komarov <kizmarh@ya.ru> (https://github.com/kizu)",
     "Shinnosuke Watanabe <snnskwtnb@gmail.com> (http://shinnn.github.io)",
@@ -104,7 +104,7 @@
         "require"
       ],
       "engines": {
-        "node": "10 || 12 || 13 || 14"
+        "node": "10 || 12 || 14 || 15"
       }
     }
   ],
@@ -117,13 +117,13 @@
     "stylus": "~0.54.8"
   },
   "devDependencies": {
-    "@bevry/update-contributors": "^1.17.0",
+    "@bevry/update-contributors": "^1.18.0",
     "coffeelint": "^2.1.0",
     "coffeescript": "^2.5.1",
     "docpad": "^6.83.2",
     "docpad-plugintester": "^1.7.3",
-    "projectz": "^2.16.0",
-    "valid-directory": "^3.4.0"
+    "projectz": "^2.17.0",
+    "valid-directory": "^3.5.0"
   },
   "peerDependencies": {
     "docpad": "^6.83.2"
